@@ -5,15 +5,15 @@ from datetime import datetime
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import matplotlib.pyplot as plt  # Import matplotlib for plotting
+import matplotlib.pyplot as plt  
 
-API_KEY = '558bc4f73ddfe90f8071e2f48ac614a6'  # Replace with your OpenWeatherMap API key
+API_KEY = '558bc4f73ddfe90f8071e2f48ac614a6'  # OpenWeatherMap API key
 CITIES = ['Delhi', 'Mumbai', 'Chennai', 'Bangalore', 'Kolkata', 'Hyderabad']
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 DATA_FILE = 'weather_data.csv'
-THRESHOLD_TEMP = 35  # Example threshold in Celsius
-EMAIL_ADDRESS = 'weathertesting05@gmail.com'  # Your email address
-EMAIL_PASSWORD = 'opye xrwv oqct tmgp'          # Your email password
+THRESHOLD_TEMP = 35  # threshold in Celsius
+EMAIL_ADDRESS = 'weathertesting05@gmail.com'  # My email address
+EMAIL_PASSWORD = 'opye xrwv oqct tmgp'          # My email password
 ALERT_RECIPIENT = 'akashku9938@gmail.com'  # Recipient email address
 
 def fetch_weather_data(city):
