@@ -13,5 +13,5 @@ def plot_daily_summary(daily_summary):
         plt.xticks(rotation=45)
         plt.legend()
         plt.tight_layout()
-        plt.savefig(f'{city}_daily_summary.png')  # Save the plot as a PNG file
-        plt.show()  # Display the plot
+        plt.savefig(f'{city}_daily_summary.png') 
+        plt.show()  
