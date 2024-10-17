@@ -26,5 +26,5 @@ This project is a real-time data processing system that retrieves weather data f
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/weather_monitor.git
+   git clone https://github.com/akashku01/weather_monitor.git
    cd weather_monitor
